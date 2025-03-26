@@ -1,7 +1,9 @@
 # image-template
 
 rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/asterix-saigon:latest
+
 systemctl reboot
+
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/asterix-saigon:latest
 
 # Purpose
