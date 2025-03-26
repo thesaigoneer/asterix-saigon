@@ -1,5 +1,9 @@
 # image-template
 
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/asterix-saigon:latest
+systemctl reboot
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/asterix-saigon:latest
+
 # Purpose
 
 This repository is meant to be a template for building your own custom Universal Blue image. This template is the recommended way to make customizations to any image published by the Universal Blue Project:
