@@ -16,12 +16,8 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/asterix-saig
 
 --------------
 
-This about concludes a bare-bone install of Chimera Linux. I personally added a number of KDE applications afterwards and installed and activated flatpak. But that's all up to the end user (being yourself obviously).
+This about concludes a bare-bone install of Asterix Saigon. I personally added a number of KDE applications afterwards and installed and activated flatpak. But that's all up to the end user (being yourself obviously).
 
-
-## Thanks!
-
-My sincere thanks goes out to the Chimera Linux team for making such an interesting and already very well working distro, and for providing me with the framework for this document (which is basically a copy, amendend and adjusted to my personal setup). Thanks a lot!
 
 --------------
 
