@@ -15,22 +15,11 @@ That's right, those images are already very complete, yet application-wise prett
 
 So, you'll find an Aurora install in which I added:
 
-  -      krusader
-  -      gwenview
-  -      okular
+  -      krusader gwenview okular
 
 And I removed:
 
-  -      fcitx5
-  -      input-remapper
-  -      kcharselect
-  -      kdebugsettings
-  -      kde-connect
-  -      kjournald
-  -      ksystemlog
-  -      nvtop
-  -      plasma-welcome
-  -      ptyxis
+  -      fcitx5 input-remapper kcharselect kdebugsettings kde-connect kjournald ksystemlog nvtop plasma-welcome ptyxis
 
 
 ## Rebase
