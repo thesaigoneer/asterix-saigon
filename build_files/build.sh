@@ -11,20 +11,18 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y krusader
-dnf5 install -y amarok
 dnf5 install -y gwenview
 dnf5 install -y okular
-dnf5 install -y kcalc
 dnf5 remove -y fcitx5
 dnf5 remove -y input-remapper
 dnf5 remove -y kcharselect
 dnf5 remove -y kdebugsettings
 dnf5 remove -y kde-connect
 dnf5 remove -y kjournald
+dnf5 remove -y ksystemlog
 dnf5 remove -y nvtop
+dnf5 remove -y plasma-welcome
 dnf5 remove -y ptyxis
-dnf5 remove -y tecla
-
 
 
 # Use a COPR Example:
