@@ -32,7 +32,7 @@ After that first step:
 
     systemctl reboot
 
-Log in again and swith to the signed image:
+Log in again and switch to the signed image:
 
     rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/asterix-saigon:latest
 
@@ -40,7 +40,7 @@ Finish with:
 
     systemctl reboot
     
-Log in into asterix-saigon!
+## Log in into asterix-saigon!
 
 I then removed a number of flatpaks afterwards (elisa gwenview kmahjongg kmines kolourpaint krdc okular skanpage). Added okular and gwenview as application to my image (I consider a picture viewer and a document reader as core functionality of a DE).
 
