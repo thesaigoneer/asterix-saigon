@@ -21,10 +21,9 @@ And I removed:
 
   -      fcitx5 input-remapper kcharselect kdebugsettings kde-connect kjournald ksystemlog nvtop plasma-welcome ptyxis
 
-
 ## Rebase
 
-First install an atomic, like Fedora Kinoite or Sway or the base iso of Aurora, and then:
+First install the base iso of Aurora or another Fedora atomic, like Kinoite or Sway, and then:
 
     rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/asterix-saigon:latest
 
@@ -42,17 +41,27 @@ Finish with:
     
 ## Log in into asterix-saigon!
 
-I then removed a number of flatpaks afterwards (elisa gwenview kmahjongg kmines kolourpaint krdc okular skanpage). Added okular and gwenview as application to my image (I consider a picture viewer and a document reader as core functionality of a DE).
+I then removed a number of flatpaks 
 
-And did a 'brew install' for midnight commander and micro. Htop, fastfetch and vim are already included in the Aurora base image.
+    elisa gwenview kmahjongg kmines kolourpaint krdc okular skanpage 
+    
+Added okular and gwenview as application to my image (I consider a picture viewer and a document reader as core functionality of a DE).
 
-But that's all up to the end user (being yourself obviously).
+And did a 'brew install' for midnight commander and micro. 
 
+Htop, fastfetch and vim are already included in the Aurora base image.
 
---------------
-
-Feel free to use these builds and dots. I do not, however, offer or imply any form of support or ongoing maintenance. And of course, you use them entirely at your own risk. Have fun!
+But all of this is up to the end user (being yourself obviously).
 
 Enjoy your freshly installed asterix-saigon!
+
+--------------
+### yada yada
+
+Feel free to use these builds and dots. I do not, however, offer or imply any form of support or ongoing maintenance. 
+
+And of course, you use them entirely at your own risk. Have fun!
+
+
 
 
