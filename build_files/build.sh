@@ -21,6 +21,7 @@ dnf5 remove -y kde-connect
 dnf5 remove -y kjournald
 dnf5 remove -y ksystemlog
 dnf5 remove -y nvtop
+dnf5 remove -y plasma-discover-notifier
 dnf5 remove -y plasma-welcome
 dnf5 remove -y ptyxis
 
