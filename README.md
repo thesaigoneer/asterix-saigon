@@ -1,6 +1,6 @@
 # Asterix Saigon
 
-## My adaptation of Aurora KDE
+### My adaptation of Aurora KDE
 
 I am always hunting for that barebone KDE install. And if it could be immutable/atomic/composable that would be even better.
 
@@ -9,7 +9,7 @@ They include codecs, printing support, homebrew for all your cli wishes, distrob
 
 As i've done before I'll roll my own then, based on Aurora.
 
-## Why adjusting at all?
+### Why adjusting at all?
 
 That's right, those images are already very complete, yet application-wise pretty minimal. Adjusting those images has become much more easy than it was in the first couple of years. And for me there's always some fluff that can be removed.
 
@@ -21,7 +21,7 @@ And I removed:
 
   -      fcitx5 input-remapper kcharselect kdebugsettings kde-connect kjournald ksystemlog nvtop plasma-welcome ptyxis
 
-## Rebase
+### Rebase
 
 First install the base iso of Aurora or another Fedora atomic, like Kinoite or Sway, and then:
 
