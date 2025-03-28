@@ -13,7 +13,7 @@ As i've done before I'll roll my own then, based on Aurora.
 
 That's right, those images are already very complete, yet application-wise pretty minimal. Adjusting those images has become much more easy than it was in the first couple of years. And for me there's always some fluff that can be removed.
 
-So, you'll find an Aurora install in which I added:
+So, in this image you'll find an Aurora install in which I added:
 
   -      krusader gwenview okular
 
@@ -39,7 +39,7 @@ Finish with:
 
     systemctl reboot
     
-## Log in into asterix-saigon!
+### Log in into asterix-saigon!
 
 I then removed a number of flatpaks 
 
@@ -47,9 +47,7 @@ I then removed a number of flatpaks
     
 Added okular and gwenview as application to my image (I consider a picture viewer and a document reader as core functionality of a DE).
 
-And did a 'brew install' for midnight commander and micro. 
-
-Htop, fastfetch and vim are already included in the Aurora base image.
+And did a 'brew install' for midnight commander and micro. Htop, fastfetch and vim are already included in the Aurora base image.
 
 But all of this is up to the end user (being yourself obviously).
 
