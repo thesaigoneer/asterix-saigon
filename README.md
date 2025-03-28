@@ -1,8 +1,33 @@
 # Asterix Saigon
 
-My adaptation of Aurora KDE
+## My adaptation of Aurora KDE
 
+I am always hunting for that barebone KDE install. And if it could be immutable/atomic/composable that would be even more great.
 
+The UniversalBlue project (https://universal-blue.org/) provides a number of excellent images to start off with. Bluefin for Gnome, Bazzite for a gaming focus and Aurora as the KDE one.  They include codecs, printing support, homebrew for all your cli wishes, distrobox etc. out of the box.
+
+## Why adjusting at all?
+
+That's right, those images are already very complete, yet application-wise pretty minimal. Adjusting those images has become much more easy than it was in the first couple of years. And for me there's always some fluff that can be removed.
+
+So, you'll find an Aurora install in which I added:
+
+-    krusader
+-    gwenview
+-    okular
+
+And I removed:
+
+-    fcitx5
+-    input-remapper
+-    kcharselect
+-    kdebugsettings
+-    kde-connect
+-    kjournald
+-    ksystemlog
+-    nvtop
+-    plasma-welcome
+-    ptyxis
 
 # Rebase
 
