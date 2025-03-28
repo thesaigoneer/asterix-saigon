@@ -25,9 +25,6 @@ dnf5 remove -y plasma-discover-notifier
 dnf5 remove -y plasma-welcome
 dnf5 remove -y ptyxis
 
-flatpak remove -y org.kde.skanpage
-
-
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
