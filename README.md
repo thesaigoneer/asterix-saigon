@@ -1,6 +1,6 @@
 # Asterix Saigon
 
-https://github.com/ublue-os/aurora/actions/workflows/build.yml
+
 
 ### My adaptation of Aurora KDE
 
