@@ -1,5 +1,7 @@
 # Asterix Saigon
 
+https://github.com/ublue-os/aurora/actions/workflows/build.yml
+
 ### My adaptation of Aurora KDE
 
 I am always hunting for that barebone KDE install. And if it could be immutable/atomic/composable that would be even better.
